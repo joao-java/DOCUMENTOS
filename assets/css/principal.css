@@ -1,1 +1,136 @@
-/* No CSS *//*# sourceMappingURL=principal.css.map */
+header {
+  width: 100%;
+  height: 5.5rem;
+  background: #F6F6F6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+header .header__main {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__main .header__logo a {
+  cursor: pointer;
+}
+
+header .header__main .header__logo a img {
+  width: 120px;
+}
+
+header .header__main .header__descricao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header__main .header__descricao h1 {
+  text-transform: uppercase;
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+header .header__main .header__descricao img {
+  width: 50px;
+}
+
+section {
+  height: 75%;
+  background: #F6F6F6;
+  border-radius: 10px;
+  border-top: solid 1px #F6F6F6;
+}
+
+section .section__top {
+  background: #fff;
+}
+
+section .section__top .section__descricao h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+section .section__top .section__descricao h2 img {
+  width: 25px;
+}
+
+section .section__container {
+  margin: 1rem;
+}
+
+section .section__container .section__documento {
+  background: #fff;
+  border-radius: 10px;
+  padding: 0.3rem 0;
+  margin: 0.7rem 0;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 4px 7px #00000027;
+          box-shadow: 1px 4px 7px #00000027;
+}
+
+section .section__container .section__documento::after {
+  content: "";
+  width: 15px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #50B848;
+}
+
+section .section__container .section__documento .documento__descricao {
+  padding: 0 2rem;
+}
+
+* {
+  margin: 0px;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 900px;
+}
+/*# sourceMappingURL=principal.css.map */

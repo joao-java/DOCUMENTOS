@@ -1,0 +1,90 @@
+
+// importando variaveis
+@import 'variaveis';
+
+
+header{
+    width: 100%;
+    height: 5.5rem;
+    background: $fundo--principal;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+
+    .header__main{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .header__logo{
+            a{
+                cursor: pointer;
+                img{
+                    width: $imgs--m;
+                }
+            }
+        }
+
+        .header__descricao{
+            display: flex;
+            align-items: center;
+            h1{
+                text-transform: uppercase;
+                padding-right: $padding--01;
+                font-size: $font--g;
+            }
+            img{
+                width: $icons--m;
+            }
+        }
+    }
+}
+
+section{
+    height: 75%;
+    background: $fundo--principal;
+    border-radius: $border--radius-p;
+    border-top: solid 1px $fundo--principal;
+    .section__top{
+        background: #fff;
+        .section__descricao{
+            h2{
+                font-size: $font--p;
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+                padding: 0 $padding--01 ;
+                img{
+                    width: $icons--p;
+                }
+            }
+        }
+    }
+
+    .section__container{
+        margin: 1rem;
+        .section__documento{
+            background: #fff;
+            border-radius: $border--radius-p;
+            padding: 0.3rem 0;
+            margin: 0.7rem 0;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 1px 4px 7px #00000027;
+
+            &::after{
+                content:"";
+                width: 15px;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background: #50B848;
+            }
+            .documento__descricao{
+                padding: 0 2rem;
+            }
+        }
+    }
+}
