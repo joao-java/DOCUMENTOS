@@ -132,6 +132,92 @@ section .section__container .section__documento .documento__descricao {
   padding: 0 2rem;
 }
 
+section .section__container .section__documento .service__modal {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.295);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  visibility: hidden;
+}
+
+section .section__container .section__documento .service__modal .janela__modal {
+  background: #fff;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+
+section .section__container .section__documento .service__modal .janela__modal .modal__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .section__container .section__documento .service__modal .janela__modal .modal__top span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+section .section__container .section__documento .service__modal .janela__modal .modal__top span .services__modal-close {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+section .section__container .section__documento .service__modal .janela__modal .modal__main {
+  height: 100%;
+  width: 100%;
+  padding: 35px;
+}
+
+section .section__container .section__documento .service__modal .janela__modal .modal__main .campo__descricao {
+  margin-bottom: 2rem;
+  height: 100px;
+  border-radius: 10px;
+  border: solid #000 1px;
+  position: relative;
+}
+
+section .section__container .section__documento .service__modal .janela__modal .modal__main .campo__descricao h4 {
+  position: absolute;
+  background: #fff;
+  padding: 1rem;
+  top: -2rem;
+  left: 2rem;
+  text-transform: uppercase;
+}
+
+section .section__container .section__documento .active-modal {
+  visibility: visible;
+  opacity: 1;
+}
+
 footer {
   bottom: 0;
   position: absolute;
