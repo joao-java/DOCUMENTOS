@@ -121,7 +121,7 @@ section{
                 left: 0;
                 right: 0;
                 bottom: 0;
-                background: rgba(0, 0, 0, 0.295);
+                background: #000000c0;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -130,7 +130,7 @@ section{
 
                 .janela__modal{
                     background: #fff;
-                    width: 80%;
+                    width: 50%;
                     height: 80%;
                     border-radius: $border--radius-p;
                     overflow: hidden;

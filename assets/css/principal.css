@@ -138,7 +138,7 @@ section .section__container .section__documento .service__modal {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.295);
+  background: #000000c0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,7 +154,7 @@ section .section__container .section__documento .service__modal {
 
 section .section__container .section__documento .service__modal .janela__modal {
   background: #fff;
-  width: 80%;
+  width: 50%;
   height: 80%;
   border-radius: 10px;
   overflow: hidden;
