@@ -10,5 +10,10 @@ modalBtns.forEach((modalBtn, i) =>{
     })
 })
 
-console.log(modalBtns);
-console.log(modalViews);
+modalCloses.forEach((modalClose)=>{
+    modalClose.addEventListener("click", ()=>{
+        modalViews.forEach((modalView)=>{
+            modalView.classList.remove("active-modal")
+        })
+    })
+})

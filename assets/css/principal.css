@@ -113,11 +113,6 @@ section .section__container .section__documento {
   cursor: pointer;
 }
 
-section .section__container .section__documento:hover {
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
-}
-
 section .section__container .section__documento::after {
   content: "";
   width: 15px;
@@ -126,6 +121,10 @@ section .section__container .section__documento::after {
   left: 0;
   top: 0;
   background: #50B848;
+}
+
+section .section__container .section__documento:hover:after {
+  width: 20px;
 }
 
 section .section__container .section__documento .documento__descricao {
@@ -150,6 +149,7 @@ section .section__container .section__documento .service__modal {
       -ms-flex-align: center;
           align-items: center;
   visibility: hidden;
+  cursor: auto;
 }
 
 section .section__container .section__documento .service__modal .janela__modal {

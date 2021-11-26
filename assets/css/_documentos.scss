@@ -73,6 +73,7 @@ section{
         padding: 0 3rem 0 1rem;
         overflow-y: scroll;
         max-height: 75%;
+
         &::-webkit-scrollbar {
             width: 12px;
             height: 100%;
@@ -93,9 +94,6 @@ section{
             box-shadow: 1px 4px 7px #00000027;
             cursor: pointer;
 
-            &:hover{
-                transform: scale(1.01);
-            }
 
             &::after{
                 content:"";
@@ -105,9 +103,14 @@ section{
                 left: 0;
                 top: 0;
                 background: #50B848;
+                
+            }
+            &:hover:after {
+                width: 20px;
             }
             .documento__descricao{
                 padding: 0 2rem;
+
             }
 
             // MODAL
@@ -123,7 +126,8 @@ section{
                 justify-content: center;
                 align-items: center;
                 visibility: hidden;
-                
+                cursor:auto;
+
                 .janela__modal{
                     background: #fff;
                     width: 80%;
