@@ -54,6 +54,8 @@ section{
     border-top: solid 1px $fundo--principal;
     .section__top{
         .section__descricao{
+            display: flex;
+            justify-content: space-between;
             h2{
                 font-size: $font--p;
                 text-transform: uppercase;

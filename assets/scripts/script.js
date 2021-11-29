@@ -17,3 +17,5 @@ modalCloses.forEach((modalClose)=>{
         })
     })
 })
+
+let h3 = document.querySelectorAll("h3").length, spanT = document.querySelector('section__descricao span');
