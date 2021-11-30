@@ -15,7 +15,7 @@ header{
     justify-content: center;
     position: absolute;
     top: 0;
-
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.568);
     .header__main{
         height: 100%;
         display: flex;
@@ -65,6 +65,12 @@ section{
                 color: $corlor-font;
                 img{
                     width: $icons--p;
+                }
+            }
+            span{
+                padding: $padding--01;
+                &::before{
+                    content: 'Qtd ';
                 }
             }
         }
