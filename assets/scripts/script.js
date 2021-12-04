@@ -18,8 +18,6 @@ modalCloses.forEach((modalClose)=>{
     })
 })
 
-// let section = document.querySelector("section")
-// section.style="backdrop-filter: blur(2.5px);";
 
 
 let h3 = document.querySelectorAll("h3").length, spanT = document.querySelector('.section__descricao span');

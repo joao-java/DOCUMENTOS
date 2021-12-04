@@ -207,6 +207,11 @@ section{
                         justify-content: space-between;
                         padding: $padding--01;
                         align-items: center;
+                        h5{
+                            width: 65%;
+                            height: 3rem;
+                            text-align: justify;
+                        }
                         span{
                             display: flex;
                             align-items: center;
@@ -239,7 +244,7 @@ section{
                             border-radius: $border--radius-p;
                             border: solid #000 1px ;
                             position: relative;
-
+                            padding-top: 1.3rem;
                             h4{
                                 position: absolute;
                                 background: #fff;
@@ -247,6 +252,22 @@ section{
                                 top: -2rem;
                                 left: 2rem;
                                 text-transform: uppercase;
+
+                            }
+                            ul{
+                                width: 100%;
+                                height: 100%;
+                                overflow-y: scroll;
+                                &::-webkit-scrollbar {
+                                    width: 7px;
+                                    height: 100%;
+                                    background: $fundo--section;
+                                    border-radius: $border--radius-p;
+                                }
+                                &::-webkit-scrollbar-thumb{
+                                    background: #000;
+                                    border-radius: $border--radius-p;
+                                }
                             }
                         }
                     }
