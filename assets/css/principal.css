@@ -1,5 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Space+Mono:wght@400;700&display=swap");
+.index {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.index .index__svgs {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+}
+
+.index .index__svgs .index__logo {
+  position: absolute;
+  top: 1.7rem;
+  left: 50%;
+  width: 150px;
+  height: 100;
+}
+
+.index .index__svgs .index__svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.index .index__main {
+  background: rgba(0, 0, 0, 0.199);
+  width: 80%;
+  height: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  z-index: 10;
+  position: relative;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.index .index__main h1 {
+  padding-left: 1rem;
+  position: absolute;
+  top: -2.6rem;
+  color: #000;
+  left: 0;
+  border-left: solid 3px #6BC763;
+  letter-spacing: 2px;
+}
+
+.index .index__main .armario {
+  width: 30%;
+  height: 100%;
+  background: #fff;
+  position: relative;
+}
+
+.index .index__main .armario a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #6BC763;
+}
+
 h3 {
   font-size: 13px;
   font-family: "Roboto", sans-serif;

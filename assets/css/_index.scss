@@ -1,0 +1,66 @@
+@import 'variaveis';
+
+.index{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .index__svgs{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        .index__logo{
+            position: absolute;
+            top: 1.7rem;
+            left: 50%;
+            width: 150px;
+            height: 100;
+        }
+        .index__svg{
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+    }
+
+    .index__main{
+        background: rgba(0, 0, 0, 0.199);
+        width: 80%;
+        height: 65%;
+        display: flex;
+        justify-content: space-evenly;
+        z-index: $z--nivel-1;
+        position: relative;
+        backdrop-filter: blur(2px);
+
+
+        h1{
+            padding-left: 1rem;
+            position: absolute;
+            top: -2.6rem;
+            color: #000;
+            left: 0;
+            border-left: solid 3px #6BC763 ;
+            letter-spacing: 2px;
+        }
+        .armario{
+            width: 30%;
+            height: 100%;
+            background: #fff;
+            position: relative;
+            a{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #6BC763;
+
+            }
+        }
+    }
+}
