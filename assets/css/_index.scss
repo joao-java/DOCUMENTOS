@@ -61,7 +61,6 @@
                 object-fit: cover;
                 &:hover::before{
                     content: "";
-                    backdrop-filter: blur(3px);
                     background-image: url(/assets/IMG/armario_baixo_aberto.jpg);
                     background-size:contain;
                     background-position: center;
