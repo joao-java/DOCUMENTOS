@@ -76,15 +76,28 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.index .index__main .armario a:hover::before {
+  content: "";
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  background-image: url(/assets/IMG/armario_baixo_aberto.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .index .index__main .armario a img {
   width: 100%;
   height: 100%;
-}
-
-.index .index__main .armario a:hover img {
-  background-image: url(assets/IMG/armario_baixo_aberto.webp);
 }
 
 h3 {

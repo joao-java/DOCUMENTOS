@@ -58,12 +58,23 @@
                 position: absolute;
                 width: 100%;
                 height: 100%;
-                img{
+                object-fit: cover;
+                &:hover::before{
+                    content: "";
+                    backdrop-filter: blur(3px);
+                    background-image: url(/assets/IMG/armario_baixo_aberto.jpg);
+                    background-size:contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
                     width: 100%;
                     height: 100%;
                 }
-                &:hover img{
-                    background-image: url(assets/IMG/armario_baixo_aberto.webp);
+                img{
+                    width: 100%;
+                    height: 100%;
                 }
             }
         }
