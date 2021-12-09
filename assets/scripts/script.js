@@ -21,5 +21,14 @@ modalCloses.forEach((modalClose)=>{
 
 
 let h3 = document.querySelectorAll("h3").length, spanT = document.querySelector('.section__descricao span');
-console.log(h3)
-spanT.innerHTML= h3;
+console.log(h3);
+spanT.innerText= h3;
+
+//===================== ALERT =====================
+let alerta = document.querySelector('.index__main .Armario_primeiro a'); 
+
+console.log(alerta)
+
+alerta.addEventListener('click', ()=>{
+    alert("dsadasdsdsa");
+})

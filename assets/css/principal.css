@@ -82,8 +82,6 @@
 
 .index .index__main .armario a:hover::before {
   content: "";
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
   background-image: url(/assets/IMG/armario_baixo_aberto.jpg);
   background-size: contain;
   background-position: center;
