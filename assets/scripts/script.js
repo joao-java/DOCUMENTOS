@@ -24,7 +24,7 @@ let alerta = document.querySelector('.index__main .Armario_primeiro a');
 console.log(alerta)
 
 alerta.addEventListener('click', ()=>{
-    alert("ESSE LADO NÃO TEM ARQUIVOS \nVOU DISPONIBILIZAR O CONTEUDO DE UMA FORMA DIFERENTE \n😀 ");
+    alert("ESSE LADO NÃO TEM ARQUIVOS \nVOU DISPONIBILIZAR O CONTEUDO DE UMA FORMA DIFERENTE \n😀😉");
 })
 
 
